@@ -1,0 +1,1 @@
+*/60 * * * * /bin/sync; /bin/sleep 10; /bin/sync; echo 1 > /proc/sys/vm/drop_caches 2>&1 > /dev/null
